@@ -65,8 +65,9 @@ insert screenshot of lighthouse
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the settings tab
-    - From the source section drop-down menu, select the Master Branch
-    - Once the master branch has been selected, the page provided the link to the complete website.
+    - From the settings tab, nagivate to the pages tab
+    - From the pages tab, navigate to the source section drop-down menu, select the main Branch
+    - Once the main branch has been selected and saved, the page provided the link to the complete website.
 
 The live link can be found here - [project1](https://mealypudding.github.io/project-1/)
 
