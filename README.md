@@ -65,7 +65,7 @@ insert screenshot of lighthouse
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the settings tab
-    - From the settings tab, nagivate to the pages tab
+    - From the settings tab, navigate to the pages tab
     - From the pages tab, navigate to the source section drop-down menu, select the main Branch
     - Once the main branch has been selected and saved, the page provided the link to the complete website.
 
