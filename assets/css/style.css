@@ -6,57 +6,53 @@
     border: none;
 }
 
-body{
+body {
     font-family: Montserrat, sans-serif;
-    color: #3a3a3a
+
+}
+ 
+/*headings */
+header {
+    text-align: center;
+    background: #286Da8;
+    color: white;
+    transition: 1s;
+    height: 75px;
+    padding: 20px;
 }
 
+header:hover {
+    background: rgba(255,255,255,0.8);
+    color: #286Da8;
 
-/*headings and logo */
+}
 
-h1, h2, h3 {
+h1 {
     font-family: Viga, sans-serif;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 4px;
-    color: #252525;
 }
-
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-}
-
 
 /* navigation links*/
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li{
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
 #menu a {
     text-decoration: none;
     color: inherit;
+    padding: 0 20px;
+}
+
+#menu li {
+    display: inline;
 }
 
 #menu a:hover {
-    border-bottom:  1px solid #3a3a3a;
+    border-bottom:  1px solid #286Da8;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid white;
 }
+
 
 
 /*hero image*/
@@ -94,7 +90,8 @@ h1, h2, h3 {
 /*footer */
 
 footer {
-    height: 100px;
+    height: 150px;
+    background:#E5E5E5;
 }
 
 .social-networks {
@@ -102,7 +99,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > ul > li {
+.social-networks li {
     display: inline;
 }
 
@@ -213,14 +210,6 @@ footer {
 
 /* for medium screens */
 @media screen and (max-width: 950px){
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
     #photos {
         column-count: 3;
     }
