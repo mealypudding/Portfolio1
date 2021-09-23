@@ -73,8 +73,13 @@ The live link can be found here - [project1](https://mealypudding.github.io/proj
 
 ## Credits
  Content
- - any code used from other sources
  - To understand some syntax of markdown I used [aimeos-typo3](https://github.com/aimeos/aimeos-typo3/blob/master/README.md#composer). In particular the addition of a contents page to the readme.md
 
+ - To color the instagram on hover I used [stackoverflow](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
+ ```
+ background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+ ```
+ - To make a custom title icon I used [favicon](https://favicon.io/favicon-generator/)
  Media
  - Image in header was taken from [pexels](https://www.pexels.com)
+ - Gallary images were taken from [pexels](https://www.pexels.com)
