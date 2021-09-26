@@ -265,7 +265,7 @@ footer {
     #cover-text {
         left: 0px;
         color: #286Da8;
-    }
+        }
 
     #what-is-it{
         width: 65%;
@@ -304,8 +304,8 @@ footer {
 /* for mobile screens */
 @media screen and (max-width: 400px) {
     header{
-        height: 50px;
-        font-size: 100%;
+        height: 65px;
+        font-size: 75%;
     }
     
     #cover-text {
@@ -315,9 +315,17 @@ footer {
         color: white;
     }
 
-    /* #hero-image {
-        object-fit: cover;
-    } */
+    #what-is-it{
+        width: 95%;
+        height: 1650px;
+        margin: 0 auto;
+    }
+
+    #hero-image {
+        width: 400px;
+
+    }
+
     #photos {
         column-count: 1;
     }
