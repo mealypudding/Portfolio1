@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <h1 id="logo">SUP North East</h1>
+        <h1>SUP North East</h1>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -28,20 +28,19 @@
         </nav>
     </header>
 
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Let's get you signed up!</h2>
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
+    <section>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+            <h2>Contact Us</h2>
+            <label for="fullname">Name<span class="req">*</span></label>
+            <input class="text-input" id="fullname" name="full_name" type="text" required>
             
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" name="last_name" type="text" required>
-            
-            <label for="email">Email Address</label>
+            <label for="email">Email Address<span class="req">*</span></label>
             <input class="text-input" type="email" id="email" name="email_address" required>
-            
-            
-            <input class="join-button" type="submit" value="Sign up!">
+
+            <label for="message">Message<span class="req">*</span></label>
+            <textarea class="message" id="message" cols="50" rows="10" name="message" required></textarea>
+
+            <input class="send" type="submit" value="Send Message">
         </form>
     </section>
 
@@ -49,6 +48,37 @@
 <!-- font awesome script -->
 <script src="https://kit.fontawesome.com/ea37b7ed60.js" crossorigin="anonymous"></script>
 
+
+
+<footer>
+    <div class="social-networks">
+        <h3>Follow US</h3>
+        <ul>
+            <li>
+                <a id="facebook" href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a id="twitter" href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a id="youtube" href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+                <a id="insta" href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fab fa-instagram-square"></i></a>
+            </li>
+            <li>
+                <a id="linkedin" href="https://linkedin.com" target="_blank" rel="noopener"
+                     aria-label="Visit our Linkedin page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
 </body>
 
 </html>
