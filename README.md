@@ -1,10 +1,11 @@
-# Title of Project
+# Stand up Paddleboarding North East
 
-The "insert name of proj"  is the landing page for "target audience" for information about "insert description."
+SUP NE is a site to educated people in the activity of paddleboarding. Specificially it is dedicated to a group of people activitely engaging in the sport in the north east of England. The site will be useful for those in the area wanting to know or meet up for with experienced paddleboarders.
 
-Short desription of information and functions, could include forms, contact info, pricing etc.
 
-Screen grab of "am i responsive?"
+![Image of lighthouse](assets/media/images/responsive.jpg)
+
+---
 
 ## Contents
 
@@ -17,30 +18,43 @@ Screen grab of "am i responsive?"
 - [Deployment](#deployment)
 - [Credits](#credits)
 
+---
 
 ## Features 
 
 - ### Navigation
-    - main navigation is located
-    - other links are
-    - comments on navigation color and contrast to background
-    - design details how it makes user friendly
+    - The Main navigation bar is located at the top of all three pages and is identical to allow easy navigation.
+    - The nav bar has hover over effects to draw the users attention to where they are about to visit.
 
-screen shot of feature
-- ### header
-    - what feature does and why is benefits user eg above
+![Image of navigation bar](assets/media/images/navbar.jpg)
 
-screen shot of feature
+- ### Landing Page
+    - The landing page includes a large image to clearly show what the website is about.
+    - It includes a text overlay to further explain what the purpose of the site is.
 
-- ### about us..eg
-    - as above
+![Image of landing page](assets/media/images/landing.jpg)
 
-screen shot of feature
+- ### Activities
+    - The activities section gives more details about the sport of paddleboarding and offers some additional activities that can be enjoyed to entice the user into enquiring about paddleboarding.
+    - The section is responsive to ensure the content is displayed in an easy to read format across multiple platforms.
+    - The background color is consistant with the nav bar and other text to ensure a consistant design that is pleasing to view.
+
+![Image of activity section](assets/media/images/activities.jpg)
+
+- ### Footer
+    - The footer includes links to various social media platforms to 
+    - The links open in a new browser to allow easy navigation.
+    - On hover the change to the brand colors of the platforms.
+
+![Image of footer](assets/media/images/social.jpg)
+
 
 ## Testing
-- testing it works in different browsers using ..
+- The site has been tested in multiple browsers using devtools and [(am i responsive)](http://ami.responsivedesign.is/)
 - confirm its working in across mulitple platforms using devtools
 - any forms are working and validation is correct (email address ect)
+
+![Image of footer](assets/media/images/lighthouse.jpg)
 
 ## Bugs
 **Solved bugs**
@@ -83,3 +97,5 @@ The live link can be found here - [project1](https://mealypudding.github.io/proj
  Media
  - Image in header was taken from [pexels](https://www.pexels.com)
  - Gallary images were taken from [pexels](https://www.pexels.com)
+
+ - colors where chosen from google pallete
