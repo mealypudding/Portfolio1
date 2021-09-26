@@ -56,7 +56,6 @@ h1 , h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
 
 #hero-image {
@@ -90,7 +89,7 @@ h1 , h2 {
 #what-is-it{
     background-color:  #286Da8;
     text-align: center;
-    height: 625px;
+    height: 650px;
 }
 
 #activity-header{
@@ -300,4 +299,28 @@ footer {
     #photos {
         column-count: 2;
     }
+}
+
+/* for mobile screens */
+@media screen and (max-width: 400px) {
+    header{
+        height: 50px;
+        font-size: 100%;
+    }
+    
+    #cover-text {
+        font-size: 100%;
+        text-align: center;
+        width: inherit;
+        color: white;
+    }
+
+    /* #hero-image {
+        object-fit: cover;
+    } */
+    #photos {
+        column-count: 1;
+    }
+
+
 }
