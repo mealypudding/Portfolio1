@@ -1,6 +1,6 @@
 # Stand up Paddleboarding North East
 
-SUP NE is a site to educated people in the activity of paddleboarding. Specificially it is dedicated to a group of people activitely engaging in the sport in the north east of England. The site will be useful for those in the area wanting to know or meet up for with experienced paddleboarders.
+SUP NE is a site to educated people in the activity of paddleboarding. Specificially it is dedicated to a group of people activitely engaging in the sport in the north east of England. The site will be useful for those in the area wanting to know more or meet up with experienced paddleboarders.
 
 
 ![Image of lighthouse](assets/media/images/responsive.jpg)
@@ -11,9 +11,13 @@ SUP NE is a site to educated people in the activity of paddleboarding. Specifici
 
 - [Features](#features)
     - [Navigation](#navigation)
-    - [header](#header)
+    - [Landing Page](#landing-page)
+    - [Activities](#activities)
+    - [Footer](#footer)
+    - [Gallery](#gallery)
+    - [Contact](#contact)
+    - [Features not included](#features-not-included)
 - [Testing](#testing)
-- [Bugs](#bugs)
 - [Validation](#validation)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -37,44 +41,53 @@ SUP NE is a site to educated people in the activity of paddleboarding. Specifici
 - ### Activities
     - The activities section gives more details about the sport of paddleboarding and offers some additional activities that can be enjoyed to entice the user into enquiring about paddleboarding.
     - The section is responsive to ensure the content is displayed in an easy to read format across multiple platforms.
-    - The background color is consistant with the nav bar and other text to ensure a consistant design that is pleasing to view.
+    - The background color is consistent with the nav bar and other text to ensure a design that is pleasing to view.
 
 ![Image of activity section](assets/media/images/activities.jpg)
 
 - ### Footer
-    - The footer includes links to various social media platforms to 
+    - The footer includes links to various social media platforms encourage the user to join the community.
     - The links open in a new browser to allow easy navigation.
-    - On hover the change to the brand colors of the platforms.
+    - On hover they change to the brand colors of the platforms.
 
 ![Image of footer](assets/media/images/social.jpg)
 
+- ### Gallery
+    - The Gallery provides the user with information into where the group has been.
+    - It provides a launch board to what they could expect from trying out the sport.
+
+![Image of footer](assets/media/images/gallery.jpg)
+
+- ### Contact
+    - The contact page allows the user to leave their contact details for one of the group to get in touch and start sharing their love of the sport.
+
+
+![Image of contact form](assets/media/images/contact.jpg)
+
+
+- ### Features not included
+    - A page dedicated to reviews of equipment to help users make their first purchases.
+
+---
 
 ## Testing
-- The site has been tested in multiple browsers using devtools and [(am i responsive)](http://ami.responsivedesign.is/)
-- confirm its working in across mulitple platforms using devtools
-- any forms are working and validation is correct (email address ect)
+- The site has been tested in multiple browsers using devtools and [am i responsive](http://ami.responsivedesign.is/)
+- The contact form has been tested and email validation is working.
 
-![Image of footer](assets/media/images/lighthouse.jpg)
-
-## Bugs
-**Solved bugs**
-- explain bug . something did not appear right/load
-- sample code identifying issue
-```
-write some code in here
-```
-- what fixed bug
+---
 
 ## Validation
 - HTML
     - No errors were returned when passing through the offical [W3C Validator](
     https://jigsaw.w3.org/css-validator/)
 - CSS
-    - No errors were returned when passing through the offical [(jigsaw)](https://jigsaw.w3.org/css-validator/) Validator
+    - No errors were returned when passing through the offical [jigsaw Validator](https://jigsaw.w3.org/css-validator/) 
 - Accessibility
-    - Confirmed Font and Background colors are easy to read and accessible by running through lighthouse in devtools
+    - Font and Background colors are easy to read and accessible checked by running through lighthouse in devtools.
 
-insert screenshot of lighthouse
+![Image of footer](assets/media/images/lighthouse.jpg)
+
+---
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -83,10 +96,12 @@ insert screenshot of lighthouse
     - From the pages tab, navigate to the source section drop-down menu, select the main Branch
     - Once the main branch has been selected and saved, the page provided the link to the complete website.
 
-The live link can be found here - [project1](https://mealypudding.github.io/project-1/)
+The live link can be found here - [SUP NE](https://mealypudding.github.io/Portfolio1/)
+
+---
 
 ## Credits
- Content
+
  - To understand some syntax of markdown I used [aimeos-typo3](https://github.com/aimeos/aimeos-typo3/blob/master/README.md#composer). In particular the addition of a contents page to the readme.md
 
  - To color the instagram on hover I used [stackoverflow](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
@@ -94,8 +109,10 @@ The live link can be found here - [project1](https://mealypudding.github.io/proj
  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
  ```
  - To make a custom title icon I used [favicon](https://favicon.io/favicon-generator/)
- Media
- - Image in header was taken from [pexels](https://www.pexels.com)
- - Gallary images were taken from [pexels](https://www.pexels.com)
+ 
+ - The Hero image was taken from [pexels](https://www.pexels.com)
+ - Gallery images were taken from [pexels](https://www.pexels.com)
 
- - colors where chosen from google pallete
+ - Colors where chosen from [w3school palette](https://www.w3schools.com/colors/colors_palettes.asp)
+
+ - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
